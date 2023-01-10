@@ -1,5 +1,6 @@
-import { Flex } from '@chakra-ui/react';
+import { Box, Button, Flex } from '@chakra-ui/react';
 import { CardContainer } from '../components/Card';
+import { Footer } from '../components/Footer';
 import { Header } from '../components/Header';
 
 export function Home(){
@@ -15,6 +16,16 @@ export function Home(){
 
                 <CardContainer img="https://www.reservasnet.com.br/blog/wp-content/uploads/2020/05/hotel-refugio-da-montanha-2.jpg" title={'Hotel Vite'} description="Batman is a superhero appearing in American comic books published by DC Comics. The character was created by artist Bob Kane and writer Bill Finger, and debuted in the 27th issue of Detective Comics on March 30, 1939." price="900" />
             </Flex>
+
+            <Box display={'flex'} flexDirection="column" alignItems={'center'} marginBottom="4">
+                <Button alignItems={'center'} bg="gray.300" _hover={{
+                    bg: 'gray.500',
+                }}>
+                    Ver mais +
+                </Button>
+            </Box>
+            
+            <Footer/>
         </>
     );
 }
