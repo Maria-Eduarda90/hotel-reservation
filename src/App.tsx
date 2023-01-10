@@ -1,7 +1,7 @@
-import { Text } from '@chakra-ui/react'
+import { Home } from './page';
 
 export function App() {
   return (
-    <Text>Hello word</Text>
+    <Home/>
   )
 }
