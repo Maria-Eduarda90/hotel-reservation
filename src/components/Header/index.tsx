@@ -19,7 +19,7 @@ export function Header() {
                 px={{ base: 4 }}
                 borderBottom={1}
                 borderStyle={'solid'}
-                borderColor={useColorModeValue('gray.200', 'gray.900')}
+                borderColor={useColorModeValue('gray.400', 'gray.900')}
                 align={'center'}>
                 <Flex
                     flex={{ base: 1, md: 'auto' }}
@@ -52,9 +52,9 @@ export function Header() {
                         fontSize={'sm'}
                         fontWeight={600}
                         color={'white'}
-                        bg={'pink.400'}
+                        bg={'blue.400'}
                         _hover={{
-                            bg: 'pink.300',
+                            bg: 'blue.300',
                         }}>
                         Sign Up
                     </Button>
